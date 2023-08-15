@@ -1,0 +1,202 @@
+@color: #1890ff;
+@colorDark: #1d33a2;
+
+.PREBox {
+    height: 100%;
+
+    .table-query-form {
+        .item {
+            width: 100%;
+        }
+    }
+
+    .PRETable {
+
+        .ant-table-tbody td,
+        .ant-table-thead th {
+            .mr6 {
+                margin-right: 6px;
+            }
+
+            .ml6 {
+                margin-left: 6px;
+            }
+        }
+
+        .ant-table-tbody {
+            .table-row-red {
+                background-color: #ea585819;
+            }
+
+            td {
+                .text-red {
+                    color: #ea5858;
+                }
+
+                .dot {
+                    display: inline-block;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+
+                    &-green {
+                        background-color: #22cc83;
+                    }
+
+                    &-yellow {
+                        background-color: #ffc414;
+                    }
+
+                    &-red {
+                        background-color: #ea5858;
+                    }
+
+                    &-gray {
+                        background-color: #c9cfd8;
+                    }
+                }
+            }
+        }
+    }
+
+    .title {
+        margin-bottom: 8px;
+
+        .icon {
+            width: 4px;
+            height: 15px;
+            margin: 3.5px 6px 3.5px 0;
+            background: @color;
+        }
+
+        .name {
+            height: 22px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #354052;
+            line-height: 22px;
+        }
+
+        .fold {
+            height: 20px;
+            margin-left: 16px;
+            font-size: 14px;
+            font-weight: 400;
+            color: @color;
+            line-height: 20px;
+            cursor: pointer;
+
+            span {
+                margin: 3px;
+            }
+        }
+    }
+
+    .deviceConnection-form {
+        margin-bottom: 16px;
+
+        .ant-col {
+            margin-bottom: 3px;
+        }
+    }
+
+    &.deviceConnectionDta {
+        .operationBtn {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+.table-dialog {
+    .title {
+        margin-bottom: 8px;
+
+        .icon {
+            width: 4px;
+            height: 15px;
+            margin: 3.5px 6px 3.5px 0;
+            background: @color;
+        }
+
+        .name {
+            height: 22px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #354052;
+            line-height: 22px;
+        }
+
+        .fold {
+            height: 20px;
+            margin-left: 16px;
+            font-size: 14px;
+            font-weight: 400;
+            color: @color;
+            line-height: 20px;
+            cursor: pointer;
+
+            span {
+                margin: 3px;
+            }
+        }
+    }
+}
+
+:root[data-doc-theme="dark"] {
+
+    .table-dialog,
+    .PREBox {
+        .title {
+            .icon {
+                background: @colorDark;
+            }
+
+            .fold {
+                color: @colorDark;
+            }
+        }
+    }
+}
+
+.mt16 {
+    margin-top: 16px !important;
+}
+
+.issuedAgain-modal {
+    .issuedAgainText {
+        font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        color: #ea5858;
+    }
+}
+
+.columnChart {
+    width: 100%;
+    height: 430px;
+    margin-top: 20px;
+}
+
+.my_tooltip.ant-tooltip {
+    max-width: 300px;
+
+    // .ant-tooltip-inner {
+    //   width: 300px;
+    // }
+}
+
+.word-break-all {
+    .ant-form-item-control-input-content {
+        word-break: break-all;
+    }
+}
+
+.overAuto {
+    overflow: auto;
+    height: calc(100vh - 130px);
+    padding-right: 24px;
+}

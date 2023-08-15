@@ -1,0 +1,119 @@
+.editPage {
+  height: 700px;
+  &-top {
+    &-content {
+      .editPage-top-content-radioGroup {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &-item {
+          text-align: center;
+          > img {
+            display: block;
+            width: 192px;
+            height: 108px;
+            margin-bottom: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  &-bottom {
+    height: calc(100% - 166px);
+    &-content {
+      height: calc(100% - 20px);
+      .classicLayout {
+        &_preview {
+          flex: 1;
+          display: flex;
+          position: relative;
+          background-color: #eff2f6;
+          padding: 1rem;
+          @wh: calc(100% - 2rem);
+
+          &_box {
+            position: absolute;
+            background-color: #eff2f6;
+            width: @wh;
+            height: @wh;
+            z-index: 1;
+
+            > * {
+              user-select: none;
+            }
+
+            > div {
+              border: 1px dashed #1d33a2;
+              cursor: pointer;
+              transition: all 0.3s;
+              background-color: #fff;
+
+              &:hover {
+                border-color: red;
+                border-width: 2px;
+              }
+            }
+          }
+
+          &_opt {
+            position: absolute;
+            pointer-events: none;
+            width: @wh;
+            height: @wh;
+            top: 1rem;
+            right: 0;
+            bottom: 0;
+            left: 1rem;
+            z-index: 2;
+
+            &_area {
+              // .forDivColor(100);
+              // background-color: #fff;
+              pointer-events: bounding-box;
+              position: relative;
+              overflow: hidden;
+
+              span {
+                transition: all 0.3s;
+              }
+
+              .anticon-close {
+                position: absolute;
+                right: -100px;
+                top: -100px;
+                z-index: 2;
+
+                &:hover {
+                  color: red;
+                }
+              }
+
+              &_add {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 1;
+                font-size: 2rem;
+              }
+
+              &:hover {
+                .anticon-close {
+                  right: 10px;
+                  top: 10px;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

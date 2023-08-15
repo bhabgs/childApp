@@ -1,0 +1,202 @@
+@color: #1890ff;
+@colorDark: #1d33a2;
+
+.thingDetail,
+.edit-thing {
+  margin-top: 30px;
+  .header {
+    position: fixed;
+    background: #fff;
+    top: 110px;
+    right: 40px;
+    z-index: 99;
+    .ant-page-header {
+      padding: 0;
+
+      .ant-page-header-heading-title {
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .basic {
+    clear: both;
+    .contentBox {
+      border-top: 1px solid #f2f3f8;
+      padding: 16px 0;
+
+      .formBody {
+        display: block;
+        .flex_wrap {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .element {
+          width: calc(var(--width));
+          // float: left;
+          font-size: 14px;
+          margin-bottom: 16px;
+          padding-left: 20px;
+          font-family: PingFangSC-Regular, PingFang SC;
+
+          .label {
+            font-weight: 400;
+            color: #5c667d;
+          }
+
+          .valueBox {
+            overflow: hidden;
+            gap: 8px;
+
+            .icon {
+              width: 10px;
+              height: 10px;
+              border-radius: 50%;
+            }
+            .value {
+              font-weight: 600;
+              color: #354052;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+            .unit {
+              font-weight: 400;
+              color: #5c667d;
+            }
+          }
+
+          .thingSpot {
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-left: 10px;
+            &.red {
+              background-color: red;
+            }
+            &.green {
+              background-color: green;
+            }
+          }
+        }
+
+        .pic {
+          height: 100%;
+          width: 240px;
+          margin-right: 100px;
+          margin-bottom: 16px;
+          justify-content: center;
+          float: right;
+          .tip_pic {
+            word-break: break-all;
+            word-wrap: break-word;
+            color: #fff;
+            margin-top: 10px;
+            font-size: 14px;
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            display: none;
+            align-items: flex-start;
+          }
+          .div_pic {
+            width: 240px;
+            word-break: break-all;
+            word-wrap: break-word;
+            position: relative;
+            // background: #f9fafb;
+            cursor: pointer;
+            justify-content: center;
+            align-items: flex-start;
+
+            &:hover .hover_action {
+              display: flex;
+            }
+            &:hover .tip_pic {
+              display: block;
+            }
+            img {
+              width: 240px;
+              height: 240px;
+              object-fit: contain;
+            }
+
+            .hover_action {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 240px;
+              height: 240px;
+              background: rgba(#354052, 0.5);
+              display: none;
+              justify-content: center;
+              align-items: center;
+              transition: all esae 0.2s;
+              .icon {
+                width: 36px;
+                height: 36px;
+                background: rgba(#fff, 0.5);
+                border-radius: 100%;
+                font-size: 20px;
+                color: #fff;
+                line-height: 38px;
+                text-align: center;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.edit-thing {
+  .formBody {
+    margin-top: 20px !important;
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+}
+.thingDetail {
+  .formBody {
+    .element {
+      min-height: 22px;
+    }
+  }
+}
+.titleBox {
+  margin-bottom: 8px;
+
+  .icon {
+    width: 4px;
+    height: 15px;
+    margin: 3.5px 6px 3.5px 0;
+    background: var(--primary-color);
+  }
+  .name {
+    height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #354052;
+    line-height: 22px;
+  }
+  .fold {
+    height: 20px;
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-color);
+    line-height: 20px;
+    cursor: pointer;
+    span {
+      margin: 3px;
+    }
+  }
+}
+.ins_prop_file {
+  width: 100%;
+}

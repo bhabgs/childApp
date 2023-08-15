@@ -1,0 +1,89 @@
+.label_form {
+  //   width: 900px;
+  label {
+    width: 7em;
+    text-align: right;
+    justify-content: flex-end;
+  }
+}
+
+.manage_wrap {
+  height: 100%;
+  overflow: hidden;
+
+  .tree_data {
+    width: 240px;
+    flex-shrink: 0;
+    background-color: #fff;
+    height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    margin-right: 16px;
+    border-right: #e7e7e7 solid 1px;
+
+    .top {
+      margin-right: 16px;
+    }
+
+    .cate_tree_wrap {
+      overflow-y: auto;
+    }
+  }
+
+  .info_con {
+    flex-grow: 1;
+    background-color: #fff;
+    overflow: auto;
+  }
+}
+
+.venderManager {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.node_title_style {
+  max-width: 225px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  white-space: nowrap;
+
+  &.on {
+    max-width: 168px;
+  }
+}
+
+.flex-top {
+  display: flex;
+  align-items: flex-start;
+}
+
+.form_row {
+  margin-bottom: 24px;
+
+  .label {
+    text-align: right;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  span {
+    word-break: break-all;
+  }
+}
+
+.mar-t-16 {
+  margin-top: 16px;
+}
+.mar-t-24 {
+  margin-top: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.word_wrap {
+  word-break: break-all;
+}

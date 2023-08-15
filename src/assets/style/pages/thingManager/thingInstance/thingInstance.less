@@ -1,0 +1,54 @@
+.thingApp {
+  height: 100%;
+  overflow: hidden;
+
+  .thingInstance {
+    background: #fff;
+    height: 100%;
+
+    .gap {
+      gap: 8px;
+    }
+
+    .left_wrap {
+      width: 240px;
+      flex-direction: column;
+      padding-right: 0px !important;
+      flex-shrink: 0;
+      box-sizing: border-box;
+      border-right: #e7e7e7 solid 1px;
+      margin-right: 16px;
+      .flex_lr_c {
+        font-weight: 700;
+        margin-right: 16px;
+        .title {
+          justify-content: space-between;
+        }
+      }
+      .tree_data {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        .search {
+          margin-right: 16px;
+          width: auto;
+        }
+        .ant-tree-switcher-noop {
+          display: none;
+        }
+      }
+      .tree_wrap {
+        overflow: auto;
+      }
+    }
+
+    .table_wrap {
+      flex-direction: column;
+      .ant-empty {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.card-manager {
+  .default-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 10%;
+    background-color: #dce2ed;
+    border: 1px dashed #1d33a2;
+    text-align: center;
+    img {
+      top: 20%;
+      width: 250px;
+    }
+    .ant-btn {
+      margin-top: 7%;
+    }
+  }
+  .pagination {
+    text-align: right;
+    margin: 16px 0;
+  }
+}
+
+.card-manager-detail {
+  position: relative;
+  height: 100%;
+  z-index: 0;
+  .tab-pane {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    &.hide {
+      z-index: -1;
+      opacity: 0;
+    }
+  }
+}

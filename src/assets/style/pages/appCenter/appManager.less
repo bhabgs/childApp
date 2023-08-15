@@ -1,0 +1,47 @@
+.app-manager {
+  .tab-name {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    .btn-close {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 4px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #eff2f6;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.1s ease-in;
+      .anticon {
+        margin-right: 0;
+        font-size: 8px;
+      }
+    }
+    &.has-close {
+      padding-right: 0;
+    }
+  }
+  .ant-tabs-tab:hover .btn-close {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .operator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .app-list {
+  }
+}
+
+.app-detail {
+  .page {
+    .operation {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

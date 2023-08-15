@@ -1,0 +1,90 @@
+@import "./editor.less";
+
+.process-map {
+  height: 100%;
+  flex: 1;
+  display: flex;
+
+  .wf {
+    width: 100%;
+  }
+
+  .hf {
+    height: 100%;
+  }
+
+  .process-left,
+  .process-right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    overflow: hidden;
+  }
+
+    .process-center {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        border-left: 1px solid #e7e7e7;
+        border-right: 1px solid #e7e7e7;
+    }
+
+    .process-header {
+        height: 40px;
+  
+    .back {
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            cursor: pointer;
+
+            >span {
+                margin-left: 5px;
+            }
+
+            &:hover {
+                color: #1d33a2;
+                font-weight: bold;
+            }
+        }
+    }
+
+  .process-content {
+    flex: 1;
+  }
+
+  .process-tree .ant-tree-switcher-noop{
+    display: none;
+  }
+
+  .process-block {
+    padding: 10px 0 10px 15px;
+  }
+
+  .process-block-title {
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+    &:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 50%;
+      width: 3px;
+      height: 16px;
+      margin-top: -8px;
+      background-color: #1d33a2;
+    }
+  }
+
+  .process-block-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    .ant-form .ant-form-item {
+      margin-bottom: 5px;
+    }
+  }
+}

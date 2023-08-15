@@ -1,0 +1,45 @@
+.editRelation {
+  .tableTool {
+    margin-bottom: 16px;
+  }
+}
+
+.thingRelationDia {
+  .tools {
+    margin-bottom: 16px;
+
+    .inputs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      // grid-template-rows: 1fr 1fr;
+      justify-items: end;
+      grid-gap: 6px 10px;
+      .element {
+        height: 32px;
+        .name {
+          line-height: 32px;
+        }
+
+        .searchSelect {
+          width: 45px !important;
+          .ant-select-selector {
+            padding: 0 6px !important;
+            height: 100% !important;
+            border-top-right-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+            border-right: 0 !important;
+            .ant-select-selection-item {
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+
+    .btns {
+      width: 220px;
+      justify-content: flex-end;
+    }
+  }
+}

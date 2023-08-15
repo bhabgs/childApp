@@ -1,0 +1,67 @@
+.common-tree {
+  height: 100%;
+  // overflow-y: auto;
+  width: 256px;
+
+  .text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #354052;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+
+  .ant-tree-title {
+    display: inline-block;
+
+    /* span,
+div {
+  vertical-align: middle !important;
+} */
+  }
+
+  .tree-node-title {
+    display: inline-block;
+    line-height: 18px;
+
+    &-box {
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+
+      .name {
+        flex: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+        &-gray {
+          color: #C9CFD8;
+        }
+      }
+
+      .dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+
+        &-green {
+          background-color: #22cc83;
+        }
+
+        &-yellow {
+          background-color: #ffc414;
+        }
+
+        &-red {
+          background-color: #ea5858;
+        }
+
+        &-gray {
+          background-color: #C9CFD8;
+        }
+      }
+    }
+  }
+}

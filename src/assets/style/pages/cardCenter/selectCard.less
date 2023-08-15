@@ -1,0 +1,26 @@
+.selectCard {
+  height: 700px;
+  .ant-checkbox-group {
+    width: 100%;
+    height: calc(100% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    .selectCard-item {
+      width: calc(33% - 10px);
+      height: 50%;
+      background-color: #eff2f6;
+      padding: 10px;
+      margin: 5px;
+      > div:first-child {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .inl-card_box {
+        height: calc(100% - 30px) !important;
+      }
+    }
+  }
+}

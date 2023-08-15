@@ -1,0 +1,17 @@
+export const lineOptions = {
+  RAW_COAL: { label: '原煤', value: 'RAW_COAL', color: '#FF4040' },
+  CLEAN_COAL: { label: '精煤', value: 'CLEAN_COAL', color: '#3FCC83' },
+  MIDDLINGS: { label: '中煤', value: 'MIDDLINGS', color: '#F79215' },
+  SLIME: { label: '煤泥', value: 'SLIME', color: '#9CD21E' },
+  REJECT: { label: '矸石、灰渣', value: 'REJECT', color: '#856FFA' },
+  SLURRY: { label: '煤泥水', value: 'SLURRY', color: '#A52337' },
+  TAILINGS: { label: '尾煤', value: 'TAILINGS', color: '#A52337' },
+  MAGNETIC_SEPARATION_TAILINGS: { label: '磁尾', value: 'MAGNETIC_SEPARATION_TAILINGS', color: '#A52337' },
+  CORRECT_MEDIUM: { label: '合介、磁选精矿', value: 'CORRECT_MEDIUM', color: '#6A8BBE' },
+  DILUTE_MEDIUM: { label: '稀介', value: 'DILUTE_MEDIUM', color: '#9095A2' },
+  CLARIFIED_WATER: { label: '清水', value: 'CLARIFIED_WATER', color: '#3FBFCB', dotted: [15, 8, 3, 8] },
+  CIRCULATING_WATER: { label: '循环水', value: 'CIRCULATING_WATER', color: '#3FBFCB', dotted: [15, 8, 3, 8, 3, 8] },
+  AIR: { label: '空气', value: 'AIR', color: '#D439D4' },
+  AGENT: { label: '药剂、输油', value: 'AGENT', color: '#EAC72F' },
+  POSSIBLE_COAL_FLOW: { label: '可能煤流', value: 'POSSIBLE_COAL_FLOW', color: '#D7A685', dotted: [15, 8] },
+};

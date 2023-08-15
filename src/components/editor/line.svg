@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 23</title>
+    <defs>
+        <path d="M3.47058824,12.3529412 L3.47058824,10.1277784 C3.47058824,8.47092413 4.81373399,7.12777838 6.47058824,7.12777838 L7.88235294,7.12777838 C9.53920719,7.12777838 10.8823529,5.78463263 10.8823529,4.12777838 L10.8823529,1.64705882 L10.8823529,1.64705882" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.41176471" height="10.7058824" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="开发者中心-工艺流程图主题" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="添加图片交互" transform="translate(-808.000000, -114.000000)">
+            <g id="新增原色" transform="translate(601.000000, 112.000000)">
+                <g id="编组-21备份-3" transform="translate(207.000000, 0.000000)">
+                    <g id="编组-23" transform="translate(0.000000, 2.000000)">
+                        <rect id="矩形" x="0" y="0" width="14" height="14"></rect>
+                        <use id="路径-2" stroke="#A4AABF" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="1" xlink:href="#path-1"></use>
+                        <rect id="矩形" stroke="#A4AABF" fill="#EFF2F6" x="1.5" y="10.3823529" width="3.11764706" height="3.11764706" rx="1.55882353"></rect>
+                        <rect id="矩形备份-17" stroke="#A4AABF" fill="#EFF2F6" x="8.91176471" y="0.5" width="3.11764706" height="3.11764706" rx="1.55882353"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

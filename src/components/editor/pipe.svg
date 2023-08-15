@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 31</title>
+    <g id="开发者中心-工艺流程图主题" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="添加图片交互" transform="translate(-739.000000, -115.000000)">
+            <g id="新增原色" transform="translate(601.000000, 112.000000)">
+                <g id="编组-19" transform="translate(138.000000, 0.000000)">
+                    <g id="编组-31" transform="translate(0.000000, 3.000000)">
+                        <rect id="矩形" x="0" y="0" width="14" height="14"></rect>
+                        <g id="编组-18" transform="translate(0.000000, 1.000000)" stroke="#A4AABF">
+                            <path d="M6.5,1.5 C6.91421356,1.5 7.28921356,1.66789322 7.56066017,1.93933983 C7.83210678,2.21078644 8,2.58578644 8,3 L8,3 L8,6.5 L11.5,6.5 L11.5,8.5 L7.5,8.5 C7.15463969,8.5 6.83648611,8.38337287 6.58296472,8.1871538 C6.33777442,7.99738278 6.15271714,7.73345903 6.06204857,7.42880215 L6.06204857,7.42880215 L5.99104541,3.5 L2.5,3.5 L2.5,1.5 Z" id="形状结合"></path>
+                            <rect id="矩形" fill="#EFF2F6" x="0.5" y="0.5" width="2" height="4" rx="1"></rect>
+                            <rect id="矩形备份-29" fill="#EFF2F6" x="11.5" y="5.5" width="2" height="4" rx="1"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

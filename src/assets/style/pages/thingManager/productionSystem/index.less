@@ -1,0 +1,45 @@
+.productionSystem {
+  height: 100%;
+  overflow: hidden;
+  .gap {
+    gap: 8px;
+  }
+
+  .left_wrap {
+    width: 240px;
+    flex-direction: column;
+    padding-right: 0px !important;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-right: #e7e7e7 solid 1px;
+    margin-right: 16px;
+    .flex_lr_c {
+      font-weight: 700;
+      padding-right: 16px;
+      .title {
+        justify-content: space-between;
+      }
+    }
+
+    .tree_data {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+      .search {
+      }
+      .ant-tree-switcher-noop {
+        display: none;
+      }
+    }
+    .tree_wrap {
+      overflow: auto;
+      margin-top: 16px;
+    }
+  }
+
+  .right .ant-spin-nested-loading,
+  .right .ant-spin-container {
+    height: 100%;
+  }
+}

@@ -1,0 +1,85 @@
+.maintenance {
+    .opt {
+        padding-bottom: 1em;
+
+        >div {
+            margin-bottom: 0.5em;
+
+            &:nth-child(1) {
+                span {
+                    padding: 0.2em 0.5em;
+
+                    &:nth-child(1) {
+                        padding-left: 0;
+                    }
+                }
+
+                span:nth-child(2) {
+                    position: relative;
+                    background: linear-gradient(270deg, rgba(239, 242, 246, 0) 0%, #EFF2F6 100%);
+                    color: rgba(29, 51, 162, 1);
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 2px;
+                        height: 12px;
+                        background: #1D33A2;
+                        left: 0;
+                        top: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-system-modal {
+    .ant-modal-header {
+        display: none;
+    }
+
+    .ant-list {
+
+        .ant-list-header,
+        .ant-list-item {
+            display: flex;
+
+            .number {
+                width: 50px;
+            }
+
+            .bin-name,
+            .code {
+                flex: 1;
+            }
+
+            .name {
+                width: 200px;
+            }
+
+            .host {
+                width: 140px;
+            }
+
+            .run-state {
+                width: 100px;
+                text-align: center;
+            }
+
+            >.time {
+                width: 150px;
+            }
+        }
+    }
+
+    .deploy-status {
+        >div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1em;
+            margin-bottom: 1em;
+        }
+    }
+}

@@ -1,0 +1,153 @@
+.label_form {
+  label {
+    width: 7em;
+    text-align: right;
+    justify-content: flex-end;
+  }
+}
+.manufactorManager {
+  overflow: hidden;
+  .tree_data {
+    width: 240px;
+    flex-shrink: 0;
+    background-color: #fff;
+    position: relative;
+    flex-direction: column;
+    margin-right: 16px;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 1px;
+      position: absolute;
+      right: 0;
+      top: -24px;
+      bottom: -24px;
+      background: #e7e7e7;
+    }
+
+    .top {
+      margin-right: 16px;
+    }
+  }
+  .info_con {
+    flex-grow: 1;
+    background-color: #fff;
+    overflow: auto;
+  }
+}
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-colume {
+  flex-direction: column;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.f_r {
+  float: right;
+}
+.align-r {
+  text-align: right;
+}
+.mar-tb-12 {
+  margin: 12px 0;
+}
+.mar-tb-10 {
+  margin: 10px 0;
+}
+.mar-t-5 {
+  margin-top: 5px !important;
+}
+.mar-t-6 {
+  margin-top: 6px !important;
+}
+.mar-t-16 {
+  margin-top: 16px !important;
+}
+.mar-t-12 {
+  margin-top: 12px !important;
+}
+.mar-t-20 {
+  margin-top: 20px !important;
+}
+.mar-t-30 {
+  margin-top: 30px !important;
+}
+.bg-fff {
+  background: #fff;
+}
+.pad-20 {
+  padding: 20px;
+}
+.pad-b-70 {
+  padding-bottom: 70px !important;
+}
+.bold {
+  font-weight: 600;
+}
+.detail_footer {
+  position: fixed;
+  left: 200px;
+  bottom: 0;
+  padding: 20px;
+  border-top: #eee solid 1px;
+  text-align: right;
+  z-index: 99;
+  background: #fff;
+  right: 0px;
+  padding-right: 40px;
+}
+.color-red {
+  color: red;
+}
+.color-9 {
+  color: #999;
+}
+.tree_wrap {
+  overflow-y: auto;
+}
+.tip {
+  color: #999;
+  margin-top: 10px;
+}
+.node_title {
+  width: 188px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  white-space: nowrap;
+  &.node_title_1 {
+    width: 188px;
+    &.on {
+      width: 138px;
+    }
+  }
+  &.node_title_2 {
+    width: 168px;
+    &.on {
+      width: 118px;
+    }
+  }
+  &.node_title_3 {
+    width: 148px;
+    &.on {
+      width: 98px;
+    }
+  }
+}
+.word_wrap {
+  word-break: break-all;
+}
+
+.h_100 {
+  height: 100%;
+}

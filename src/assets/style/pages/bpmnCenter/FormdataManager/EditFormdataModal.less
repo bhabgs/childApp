@@ -1,0 +1,33 @@
+.EditFormdataModal {
+  .titleLine {
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+
+  .lineBox {
+    min-height: 30px;
+    .left {
+      width: 200px;
+    }
+
+    .right {
+      .label {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .requiredBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px 8px;
+
+    .requiredItem {
+      height: 30px;
+      .label {
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+}

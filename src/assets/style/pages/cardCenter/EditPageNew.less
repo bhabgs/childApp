@@ -1,0 +1,78 @@
+@color: #1890ff;
+@colorDark: #1d33a2;
+
+.EditPage {
+  height: 100%;
+  flex-direction: column;
+
+  .top {
+    height: 40px;
+    justify-content: flex-end;
+
+    .btns {
+      * {
+        &:hover {
+          color: @color;
+        }
+      }
+    }
+  }
+
+  .content {
+    .left {
+      width: 240px;
+      border-right: #e7e7e7 solid 1px;
+      margin-right: 16px;
+      flex-direction: column;
+
+      .title {
+        height: 27px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        line-height: 27px;
+        margin-bottom: 16px;
+      }
+
+      .myTree {
+        flex: 1;
+        overflow: auto;
+      }
+    }
+
+    .center {
+      flex-direction: column;
+      .resolutionRatio {
+        color: @color;
+      }
+    }
+
+    .right {
+      width: 300px;
+      border-left: #e7e7e7 solid 1px;
+      margin-left: 16px;
+      padding-left: 16px;
+    }
+  }
+}
+
+:root[data-doc-theme="dark"] {
+  .EditPage {
+    .top {
+      .btns {
+        * {
+          &:hover {
+            color: @colorDark;
+          }
+        }
+      }
+    }
+
+    .content {
+      .center {
+        .resolutionRatio {
+          color: @colorDark;
+        }
+      }
+    }
+  }
+}

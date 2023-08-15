@@ -1,0 +1,41 @@
+@color: #1890ff;
+@colorDark: #1d33a2;
+
+.BpmnDesign {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  .flow-tree {
+    width: 240px;
+    margin-right: 16px;
+  }
+  .right {
+    flex: 1;
+    .BpmnDesignTable {
+      .tableBtn {
+        cursor: pointer;
+        text-decoration: underline;
+        color: @color;
+      }
+
+      .operation {
+        gap: 8px;
+        justify-content: space-between;
+        padding-right: 8px;
+      }
+    }
+  }
+}
+
+:root[data-doc-theme="dark"] {
+  .BpmnDesign {
+    .right {
+      .BpmnDesignTable {
+        .tableBtn {
+          color: @colorDark;
+        }
+      }
+    }
+  }
+}

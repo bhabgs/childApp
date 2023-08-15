@@ -1,0 +1,35 @@
+.GraphComp {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  .graphBox {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .thing-node-tooltip {
+    position: absolute;
+    z-index: 10;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.2s ease-in-out;
+    &.hide {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .desc-item {
+      display: flex;
+      margin-bottom: 12px;
+      .label {
+        color: #5c667d;
+        margin-right: 8px;
+        &::after {
+          content: ":";
+        }
+      }
+    }
+  }
+}
